@@ -22,4 +22,4 @@ def add_block(data):
     index = len(chain) + 1
     previous_hash = chain[-1]["hash"] if chain else "0"
     block = create_block(index, timestamp, data, previous_hash)
-    chain.append(block)
+    chain.append(block) 
